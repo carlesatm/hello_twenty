@@ -33,7 +33,7 @@ services:
       STORAGE_S3_REGION: ${STORAGE_S3_REGION}
       STORAGE_S3_NAME: ${STORAGE_S3_NAME}
       STORAGE_S3_ENDPOINT: ${STORAGE_S3_ENDPOINT}
-      IS_MULTIWORKSPACE_ENABLED: "true" # descomentar si no necesitamos multiwoeksapce (no va a ir)
+      # IS_MULTIWORKSPACE_ENABLED: "true" # descomentar si no necesitamos multiwoeksapce (no va a ir)
 
       APP_SECRET: ${APP_SECRET}
     depends_on:
